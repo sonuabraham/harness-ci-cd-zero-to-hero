@@ -15,7 +15,7 @@ pipeline:
   name: devpipeline
   identifier: devpipeline
   # CHANGE THIS: Your project ID (find in URL after /projects/)
-  projectIdentifier: harness-ci-cd-zero-to-hero
+  projectIdentifier: harnesscicdzerotohero
   # CHANGE THIS: Your organization name (usually "default")
   orgIdentifier: default
   tags: {}
