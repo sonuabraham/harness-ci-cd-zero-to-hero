@@ -15,7 +15,7 @@ pipeline:
   name: devpipeline
   identifier: devpipeline
   # CHANGE THIS: Your project ID (find in URL after /projects/)
-  projectIdentifier: HarnessCICDZerotoHero
+  projectIdentifier: harness-ci-cd-zero-to-hero
   # CHANGE THIS: Your organization name (usually "default")
   orgIdentifier: default
   tags: {}
@@ -23,9 +23,9 @@ pipeline:
     ci:
       codebase:
         # CHANGE THIS: Your GitHub connector name (add "account." if it's account-level)
-        connectorRef: account.Github
+        connectorRef: harnesscicdzerotohero
         # CHANGE THIS: Your GitHub repository name
-        repoName: Harness-CI-CD-Zero-to-Hero
+        repoName: harness-ci-cd-zero-to-hero
         build: <+input>
   stages:
     - stage:
