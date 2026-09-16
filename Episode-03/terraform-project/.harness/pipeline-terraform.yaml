@@ -29,7 +29,7 @@ pipeline:
   name: terraform-infra-pipeline
   identifier: terraform_infra_pipeline
   # CHANGE THIS: Your project ID
-  projectIdentifier: HarnessCICDZerotoHero
+  projectIdentifier: harnesscicdzerotohero
   # CHANGE THIS: Your org
   orgIdentifier: default
   tags: {}
@@ -37,8 +37,8 @@ pipeline:
     ci:
       codebase:
         # CHANGE THIS: Your GitHub connector
-        connectorRef: account.Github
-        repoName: Harness-CI-CD-Zero-to-Hero
+        connectorRef: harnesscicdzerotohero
+        repoName: harness-ci-cd-zero-to-hero
         build: <+input>
   # Runtime input: user picks "apply" or "destroy"
   variables:
