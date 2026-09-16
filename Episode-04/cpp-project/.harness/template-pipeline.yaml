@@ -12,7 +12,7 @@ template:
   identifier: enterprise_ci_pipeline_template
   versionLabel: "1.0.0"
   type: Pipeline
-  projectIdentifier: HarnessCICDZerotoHero
+  projectIdentifier: harnesscicdzerotohero
   orgIdentifier: default
   tags:
     type: template
