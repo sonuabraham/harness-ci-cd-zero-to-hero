@@ -12,7 +12,7 @@ pipeline:
   name: cpp-enterprise-ci-pipeline
   identifier: cpp_enterprise_ci_pipeline
   # CHANGE THIS: Your project ID
-  projectIdentifier: HarnessCICDZerotoHero
+  projectIdentifier: harnesscicdzerotohero
   # CHANGE THIS: Your org
   orgIdentifier: default
   tags: {}
@@ -22,8 +22,8 @@ pipeline:
         # CHANGE THIS: Your GitHub connector
         # This connector is at ACCOUNT level (Account Settings → Connectors)
         # We created this in Episode 1
-        connectorRef: account.Github
-        repoName: Harness-CI-CD-Zero-to-Hero
+        connectorRef: harnesscicdzerotohero
+        repoName: harness-ci-cd-zero-to-hero
         build: <+input>
   # Runtime Inputs: user selects version and environment when running
   variables:
